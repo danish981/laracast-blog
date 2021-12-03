@@ -1,0 +1,30 @@
+body {
+    color: #222;
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: auto;
+}
+
+p {
+    line-height: 1.3;
+}
+
+article {
+    padding: 10px;
+    transition: 0.15s;
+}
+
+article:hover {
+    background-color: aliceblue;
+}
+
+/* select every article after every article */
+article + article {
+    margin-top: 3rem;
+    padding-top: 3rem;
+    border-top: 1px solid #c5c5c5;
+    margin-bottom: 5rem;
+}
+
+
+

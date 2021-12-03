@@ -1,0 +1,64 @@
+
+
+start of 19th video, learning about databases
+
+
+------------other videos to follow---------------------------------
+create employee management system laravel 8 and vuejs, 5:39:00
+https://youtu.be/xvLWgxExiEM
+
+
+todo list application with laravel and vue js, > hour
+https://youtu.be/UHSipe7pSac
+
+
+-------------------------------------------------------------------
+
+
+
+
+================important topics from laravel=========================
+bootstrap in laravel
+collections in laravel
+caching the data into the models and getting it
+
+======================================================================
+
+
+
+
+
+
+there are three ways of calling and creating callback functions
+
+---------first way----------
+function myfunction($num) {
+  return($num * $num);
+}
+$a = array(1, 2, 3, 4, 5);
+echo "<pre>";
+print_r(array_map("myfunction", $a));
+
+
+
+
+-------second way ==========
+$p = array_map(function($n) {
+    return $n * $n;
+}, $a);
+
+echo "<pre>";
+print_r($p);
+
+
+
+----------third way in php 7.4 and higher ------------
+$p = array_map(fn($n)=>($n*$n), [1,2,3]);
+
+echo "<pre>";
+print_r($p);
+
+
+
+
+
