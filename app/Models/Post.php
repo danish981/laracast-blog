@@ -6,16 +6,14 @@ use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Support\Facades\File;
 use Spatie\YamlFrontMatter\YamlFrontMatter;
 
-class Post
-{
+class Post {
     public $title;
     public $slug;
     public $excerpt;
     public $date;
     public $body;
 
-    public function __construct($title, $slug, $excerpt, $date, $body)
-    {
+    public function __construct($title, $slug, $excerpt, $date, $body) {
         $this->title = $title;
         $this->slug = $slug;
         $this->excerpt = $excerpt;
@@ -23,12 +21,11 @@ class Post
         $this->body = $body;
     }
 
-    public static function all()
-    {
+    public static function all() {
         return cache()->rememberForever('posts.all', function () {
             return collect(File::files(resource_path('posts')))
-                ->map(fn ($file) => YamlFrontMatter::parseFile($file))
-                ->map(fn ($document) => new Post(
+                ->map(fn($file) => YamlFrontMatter::parseFile($file))
+                ->map(fn($document) => new Post(
                     $document->title,
                     $document->slug,
                     $document->excerpt,
@@ -39,17 +36,20 @@ class Post
         });
     }
 
-    public static function find($slug)
-    {
+    public static function find($slug) {
         return static::all()->firstWhere('slug', $slug);
     }
 
-    public static function findOrFail($slug)
-    {
+    public static function findOrFail($slug) {
         $post = static::find($slug);
         if (!$post) {
             throw new ModelNotFoundException();
         }
         return $post;
     }
+
+    private function getRandomNumber(int $lowerLimit = 10, int $upperLimit = 20) :int {
+        return random_int($lowerLimit, $upperLimit);
+    }
+
 }
