@@ -47,9 +47,4 @@ class Post {
         }
         return $post;
     }
-
-    private function getRandomNumber(int $lowerLimit = 10, int $upperLimit = 20) :int {
-        return random_int($lowerLimit, $upperLimit);
-    }
-
 }
