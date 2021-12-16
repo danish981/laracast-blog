@@ -17,6 +17,16 @@ https://youtu.be/UHSipe7pSac
 
 
 
+links to resources
+https://laravel.com/docs/8.x/collections
+
+
+
+
+
+
+
+
 ================important topics from laravel=========================
 bootstrap in laravel
 collections in laravel

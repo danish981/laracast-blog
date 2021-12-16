@@ -16,3 +16,9 @@ Route::get('/posts/{slug}', function ($slug) {
     ]);
 
 });
+
+
+
+
+
+
