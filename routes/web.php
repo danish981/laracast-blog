@@ -9,6 +9,9 @@ Route::get('/', function () {
     ]);
 });
 
+
+
+
 Route::get('/posts/{slug}', function ($id) {
 
     return view('post', [
@@ -16,6 +19,3 @@ Route::get('/posts/{slug}', function ($id) {
     ]);
 
 });
-
-
-

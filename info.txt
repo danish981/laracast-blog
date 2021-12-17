@@ -15,12 +15,12 @@ https://youtu.be/UHSipe7pSac
 -------------------------------------------------------------------
 
 
-
+three ways to mitigate the mass assignment vulnarabilities
 
 links to resources
 https://laravel.com/docs/8.x/collections
-
-
+https://stackoverflow.com/questions/22279435/what-does-mass-assignment-mean-in-laravel
+https://youtu.be/OCqzBgSXnQo        // mass assignment, fillable and other awesome
 
 
 
