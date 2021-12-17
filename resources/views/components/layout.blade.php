@@ -12,7 +12,8 @@
 
 <body>
 
-    {{ $content }}
+{{ $content }}
+
 
 </body>
 

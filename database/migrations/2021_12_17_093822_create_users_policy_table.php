@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateFlightsTable extends Migration
+class CreateUsersPolicyTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,8 @@ class CreateFlightsTable extends Migration
      */
     public function up()
     {
-        Schema::create('flights', function (Blueprint $table) {
+        Schema::create('users_policy', function (Blueprint $table) {
             $table->id();
-            $table->string('fullname', 35);
-            $table->string('username', 35)->unique();
             $table->timestamps();
         });
     }
@@ -28,6 +26,6 @@ class CreateFlightsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('flights');
+        Schema::dropIfExists('users_policy');
     }
 }
