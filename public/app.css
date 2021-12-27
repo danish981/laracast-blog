@@ -20,11 +20,9 @@ article:hover {
 
 /* select every article after every article */
 article + article {
-    margin-top: 3rem;
-    padding-top: 3rem;
+    margin-top: 1rem;
+    padding-top: 2rem;
     border-top: 1px solid #c5c5c5;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
-
-
 

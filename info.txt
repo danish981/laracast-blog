@@ -1,6 +1,6 @@
 
 
-start of 19th video, learning about databases
+24 : your first eloquent relationship
 
 
 ------------other videos to follow---------------------------------
@@ -12,20 +12,17 @@ todo list application with laravel and vue js, > hour
 https://youtu.be/UHSipe7pSac
 
 
--------------------------------------------------------------------
+---------------------------links to resources----------------------------------------
 
 
 three ways to mitigate the mass assignment vulnarabilities
 
-links to resources
+
 https://laravel.com/docs/8.x/collections
 https://stackoverflow.com/questions/22279435/what-does-mass-assignment-mean-in-laravel
-https://youtu.be/OCqzBgSXnQo        // mass assignment, fillable and other awesome
 
-
-
-
-
+mass assignment, fillable and other awesome
+https://youtu.be/OCqzBgSXnQo
 
 ================important topics from laravel=========================
 bootstrap in laravel
@@ -36,8 +33,8 @@ caching the data into the models and getting it
 
 
 
-
-
+doom wad files
+https://archive.org/details/2020_03_22_DOOM
 
 there are three ways of calling and creating callback functions
 

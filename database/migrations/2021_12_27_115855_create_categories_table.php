@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateUsersPolicyTable extends Migration
+class CreateCategoriesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,10 @@ class CreateUsersPolicyTable extends Migration
      */
     public function up()
     {
-        Schema::create('users_policy', function (Blueprint $table) {
+        Schema::create('categories', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('slug');
             $table->timestamps();
         });
     }
@@ -26,6 +28,8 @@ class CreateUsersPolicyTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('users_policy');
+        Schema::dropIfExists('categories');
     }
+
+
 }
