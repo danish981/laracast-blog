@@ -1,6 +1,6 @@
 
-
-24 : your first eloquent relationship
+working with databases
+26: clock one and N-plaus-1 problem
 
 
 ------------other videos to follow---------------------------------
@@ -18,12 +18,20 @@ https://youtu.be/UHSipe7pSac
 three ways to mitigate the mass assignment vulnarabilities
 
 
+
+
+laravel eloquent relationships with great explanation and videos to
+https://dev.to/ellis22/everything-about-laravel-eloquent-relationships-tutorial-with-examples-from-scratch-47k8
+
+
 https://laravel.com/docs/8.x/collections
 https://stackoverflow.com/questions/22279435/what-does-mass-assignment-mean-in-laravel
 
 mass assignment, fillable and other awesome
 https://youtu.be/OCqzBgSXnQo
 
+
+======================================================================
 ================important topics from laravel=========================
 bootstrap in laravel
 collections in laravel

@@ -9,7 +9,10 @@ class Post extends Model
 {
     use HasFactory;
 
-    protected $guarded = ['id'];
+    protected $guarded = [];
 
+    public function category() {
+        return $this->belongsTo(Category::class);
+    }
 
 }
