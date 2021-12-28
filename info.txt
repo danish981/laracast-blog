@@ -17,7 +17,8 @@ https://youtu.be/UHSipe7pSac
 
 three ways to mitigate the mass assignment vulnarabilities
 
-
+wordpress vidoe nice explanation for a business webite
+https://youtu.be/20Bp0ucsiGQ
 
 
 laravel eloquent relationships with great explanation and videos to
