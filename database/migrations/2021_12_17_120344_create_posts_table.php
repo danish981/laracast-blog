@@ -11,10 +11,11 @@ class CreatePostsTable extends Migration
      *
      * @return void
      */
-    public function up()
+    public function up(): void
     {
-        Schema::create('posts', function (Blueprint $table) {
+        Schema::create('posts', static function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id');
             $table->foreignId('category_id');
             $table->string('slug')->unique();
             $table->string('title');
@@ -30,7 +31,7 @@ class CreatePostsTable extends Migration
      *
      * @return void
      */
-    public function down()
+    public function down(): void
     {
         Schema::dropIfExists('posts');
     }

@@ -1,6 +1,6 @@
 
 working with databases
-26: clock one and N-plaus-1 problem
+28 : turbo boost with model factories
 
 
 ------------other videos to follow---------------------------------
