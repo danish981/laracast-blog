@@ -1,7 +1,7 @@
 
 
 working with databases
-28 : turbo boost with model factories
+29 : view all posts written by an author
 
 
 ------------other videos to follow---------------------------------
@@ -9,7 +9,7 @@ create employee management system laravel 8 and vuejs, 5:39:00
 https://youtu.be/xvLWgxExiEM
 
 
-todo list application with laravel and vue js, > hour
+todolist application with laravel and vue js, > hour
 https://youtu.be/UHSipe7pSac
 
 

@@ -22,3 +22,5 @@ Route::get('/categories/{category:slug}', static function (Category $category) {
         'posts' => $category->posts
     ]);
 });
+
+
