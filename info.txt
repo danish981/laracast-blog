@@ -1,7 +1,7 @@
 
 
 working with databases
-29 : view all posts associated by an author
+30 : eager load relationships on existing model
 
 
 ------------other videos to follow---------------------------------
