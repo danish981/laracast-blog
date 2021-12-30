@@ -1,8 +1,7 @@
 
 
-working with databases
-30 : eager load relationships on existing model
-
+intergrate the design model
+32 : convert html css part 2
 
 ------------other videos to follow---------------------------------
 create employee management system laravel 8 and vuejs, 5:39:00

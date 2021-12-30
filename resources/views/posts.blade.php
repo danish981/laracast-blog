@@ -1,6 +1,33 @@
 <x-layout>
-    <x-slot name="content">
-        @foreach ($posts as $post)
+
+    @include('_posts-header')
+
+    <main class="max-w-6xl mx-auto mt-6 lg:mt-20 space-y-6">
+
+        <!-- big one featured article -->
+        <x-post-featured-card />
+
+        <!-- TWO articles side by side -->
+        <div class="lg:grid lg:grid-cols-2">
+            <x-post-card />
+            <x-post-card />
+        </div>
+
+        <!-- THREE articles side by side -->
+        <div class="lg:grid lg:grid-cols-3">
+            <x-post-card />
+            <x-post-card />
+            <x-post-card />
+        </div>
+
+    </main>
+
+
+
+
+
+
+    {{-- @foreach ($posts as $post)
             <article>
                 <h2>
                     <a href="/posts/{{ $post->slug }}">
@@ -17,6 +44,10 @@
                     {!! $post->excerpt !!}
                 </div>
             </article>
-        @endforeach
-    </x-slot>
+        @endforeach --}}
+
+
+
+
+
 </x-layout>
