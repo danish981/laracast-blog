@@ -1,7 +1,7 @@
 
 
 working with databases
-29 : view all posts written by an author
+29 : view all posts associated by an author
 
 
 ------------other videos to follow---------------------------------
