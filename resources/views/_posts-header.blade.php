@@ -5,7 +5,7 @@
     </h1>
 
     <h2 class="inline-flex mt-2">
-        By Lary Laracore <img src="./images/lary-head.svg" alt="Head of Lary the mascot">
+        By Lary Laracore <img src="/images/lary-head.svg" alt="Head of Lary the mascot">
     </h2>
 
     <p class="text-sm mt-14">
@@ -48,7 +48,6 @@
                     </path>
                 </g>
             </svg>
-
         </div>
 
         <!-- Search -->

@@ -1,9 +1,7 @@
 
 
 integrate the design model
-32 : convert html css part 2
-
-video at : 10:04, span the divs at 2, then other....
+33 : convert the blog post page
 
 
 ------------other videos to follow---------------------------------
