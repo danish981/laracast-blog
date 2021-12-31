@@ -15,6 +15,20 @@ todolist application with laravel and vue js, > hour
 https://youtu.be/UHSipe7pSac
 
 
+
+
+==========================================================================
+laravel project settings, how to make phpstorm understand laravel
+https://www.youtube.com/watch?v=HB2T0iWiW50
+=========================================================================
+
+
+
+
+
+
+
+
 ---------------------------links to resources----------------------------------------
 
 
@@ -23,9 +37,14 @@ three ways to mitigate the mass assignment vulnerabilities
 wordpress vide nice explanation for a business website
 https://youtu.be/20Bp0ucsiGQ
 
+package for laravel ide helper, and project with phpstorm to make it understand
+https://github.com/barryvdh/laravel-ide-helper
 
 laravel eloquent relationships with great explanation and videos to
 https://dev.to/ellis22/everything-about-laravel-eloquent-relationships-tutorial-with-examples-from-scratch-47k8
+
+vuejs crash course, very nice, vue mastery
+https://youtu.be/bzlFvd0b65c
 
 
 https://laravel.com/docs/8.x/collections
