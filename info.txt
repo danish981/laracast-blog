@@ -1,7 +1,10 @@
 
 
-intergrate the design model
+integrate the design model
 32 : convert html css part 2
+
+video at : 10:04, span the divs at 2, then other....
+
 
 ------------other videos to follow---------------------------------
 create employee management system laravel 8 and vuejs, 5:39:00
@@ -15,9 +18,9 @@ https://youtu.be/UHSipe7pSac
 ---------------------------links to resources----------------------------------------
 
 
-three ways to mitigate the mass assignment vulnarabilities
+three ways to mitigate the mass assignment vulnerabilities
 
-wordpress vidoe nice explanation for a business webite
+wordpress vide nice explanation for a business website
 https://youtu.be/20Bp0ucsiGQ
 
 
