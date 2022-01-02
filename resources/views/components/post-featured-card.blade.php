@@ -6,6 +6,7 @@
     <div class="py-6 px-5 lg:flex">
 
         <div class="flex-1 lg:mr-8">
+
             <!-- todo : image of every blog post here -->
             <img src="/images/illustration-1.png" alt="Blog Post illustration" class="rounded-xl">
         </div>
@@ -29,7 +30,6 @@
                         Published <time>{{ $post->created_at->diffForHumans() }}</time>
                     </span>
                 </div>
-
             </header>
 
             <!-- post excerpt -->

@@ -1,7 +1,7 @@
 
 
 integrate the design model
-33 : convert the blog post page
+34 : small detour to make a drop down component
 
 
 ------------other videos to follow---------------------------------
@@ -29,6 +29,9 @@ https://www.youtube.com/watch?v=HB2T0iWiW50
 
 ---------------------------links to resources----------------------------------------
 
+tailwindcss is not working in vscode, solution
+https://stackoverflow.com/questions/61343447/my-tailwind-css-intellisense-plugin-just-isnt-working-on-my-vscode
+
 
 three ways to mitigate the mass assignment vulnerabilities
 
@@ -43,6 +46,14 @@ https://dev.to/ellis22/everything-about-laravel-eloquent-relationships-tutorial-
 
 vuejs crash course, very nice, vue mastery
 https://youtu.be/bzlFvd0b65c
+
+
+postgresql video by edureak, 2 hourss
+https://youtu.be/-VO7YjQeG6Y
+
+umar ki halo game
+http://oceanofgames.com/halo-combat-evolved-free-download-ofgv-6023937/
+
 
 
 https://laravel.com/docs/8.x/collections

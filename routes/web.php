@@ -8,7 +8,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', static function () {
     return view('posts', [
-        'posts' => Post::latest()->get()
+        'posts' => Post::latest()->get(),
+        'categories' => Category::all()
     ]);
 });
 
@@ -29,3 +30,5 @@ Route::get('authors/{author:username}', static function (User $author) {
         'posts' => $author->posts
     ]);
 });
+
+

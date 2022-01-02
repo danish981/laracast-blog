@@ -17946,6 +17946,7 @@ namespace Illuminate\Http {
 
 }
 
+
 namespace {
     class App extends \Illuminate\Support\Facades\App
     {
