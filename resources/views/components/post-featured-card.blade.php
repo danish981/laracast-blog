@@ -54,7 +54,6 @@
                 </div>
             </footer>
 
-
         </div>
     </div>
 </article>
