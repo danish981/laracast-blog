@@ -17,12 +17,12 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-    //    $user = User::find(3);
-    //    $category = Category::find(3);
+       $user = User::find(1);
+       $category = Category::find(3);
 
-    //    Post::factory(10)->create([
-    //        'user_id' => $user->id,
-    //        'category_id' => $category->id
-    //    ]);
+       Post::factory(10)->create([
+           'user_id' => $user->id,
+           'category_id' => $category->id
+       ]);
     }
 }
