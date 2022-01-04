@@ -30,3 +30,10 @@ Route::get('authors/{author:username}', static function (User $author) {
         'posts' => $author->posts
     ]);
 });
+
+
+
+
+function getRandomNumber (int $lowerLimit = 10, int $upperLImit = 20) : int {
+    return random_int($lowerLimit, $upperLImit);
+}
