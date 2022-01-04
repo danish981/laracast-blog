@@ -32,6 +32,17 @@ react native with yelp API uber project, clever programmer
 https://www.youtube.com/watch?v=jmvbhuJXFow
 
 
+
+javascript mastery full social media application
+https://youtu.be/1RHDhtbqo94
+
+vuejs 5 project in three hours long video
+https://www.youtube.com/watch?v=DPBXxrhJIv4
+
+
+
+
+
 vue-start from here, build a vue application
 https://youtu.be/bzlFvd0b65c
 
