@@ -23,6 +23,12 @@ https://www.youtube.com/watch?v=HB2T0iWiW50
 
 
 
+----------------------PROBLEMS AND SOLUTIONS----------------------------------------------------
+
+git credentials manager was not working propertly and was asking me to install dot net 4.7.2,
+which was not supported by windows 10 build 1511 so solution was :
+
+https://stackoverflow.com/questions/37182847/how-do-i-disable-git-credential-manager-for-windows
 
 
 
@@ -40,12 +46,8 @@ vuejs 5 project in three hours long video
 https://www.youtube.com/watch?v=DPBXxrhJIv4
 
 
-
-
-
 vue-start from here, build a vue application
 https://youtu.be/bzlFvd0b65c
-
 
 when dotnet install was not successful, try this
 https://youtu.be/-0eZMOifT2Y
@@ -55,7 +57,7 @@ tailwindcss is not working in vscode, solution
 https://stackoverflow.com/questions/61343447/my-tailwind-css-intellisense-plugin-just-isnt-working-on-my-vscode
 
 three ways to mitigate the mass assignment vulnerabilities
-
+link : missing
 
 wordpress vide nice explanation for a business website
 https://youtu.be/20Bp0ucsiGQ
