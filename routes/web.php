@@ -15,25 +15,22 @@ Route::get('/', static function () {
 
 Route::get('posts/{post:slug}', static function (Post $post) {
     return view('post', [
-        'post' => $post
+        'post' => $post,
+        'categories' => Category::all()
     ]);
 });
 
 Route::get('categories/{category:slug}', static function (Category $category) {
     return view('posts', [
-        'posts' => $category->posts
+        'posts' => $category->posts,
+        'currentCategory' => $category,
+        'categories' => Category::all()
     ]);
 });
 
 Route::get('authors/{author:username}', static function (User $author) {
     return view('posts', [
-        'posts' => $author->posts
+        'posts' => $author->posts,
+        'categories' => Category::all()
     ]);
 });
-
-
-
-
-function getRandomNumber (int $lowerLimit = 10, int $upperLImit = 20) : int {
-    return random_int($lowerLimit, $upperLImit);
-}
