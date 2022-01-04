@@ -1,13 +1,13 @@
 
 
 
-
+current video im watching
 integrate the design model
-34 : small detour to make a drop down component
+35 : extract a re-usable drop down menu component
 
 
 ------------other videos to follow---------------------------------
-create employee management system laravel 8 and vuejs, 5:39:00
+create employee management system laravel 8 and vueJS, 5:39:00
 https://youtu.be/xvLWgxExiEM
 
 
@@ -27,7 +27,7 @@ https://www.youtube.com/watch?v=HB2T0iWiW50
 
 ----------------------PROBLEMS AND SOLUTIONS----------------------------------------------------
 
-git credentials manager was not working propertly and was asking me to install dot net 4.7.2,
+git credentials manager was not working properly and was asking me to install dot net 4.7.2,
 which was not supported by windows 10 build 1511 so solution was :
 
 https://stackoverflow.com/questions/37182847/how-do-i-disable-git-credential-manager-for-windows
@@ -44,7 +44,7 @@ https://www.youtube.com/watch?v=jmvbhuJXFow
 javascript mastery full social media application
 https://youtu.be/1RHDhtbqo94
 
-vuejs 5 project in three hours long video
+vueJS 5 project in three hours long video
 https://www.youtube.com/watch?v=DPBXxrhJIv4
 
 
@@ -70,11 +70,11 @@ https://github.com/barryvdh/laravel-ide-helper
 laravel eloquent relationships with great explanation and videos to
 https://dev.to/ellis22/everything-about-laravel-eloquent-relationships-tutorial-with-examples-from-scratch-47k8
 
-vuejs crash course, very nice, vue mastery
+vueJS crash course, very nice, vue mastery
 https://youtu.be/bzlFvd0b65c
 
 
-postgresql video by edureak, 2 hourss
+postgresql video by edureka, 2 hours
 https://youtu.be/-VO7YjQeG6Y
 
 umar ki halo game
