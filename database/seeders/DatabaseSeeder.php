@@ -23,6 +23,7 @@ class DatabaseSeeder extends Seeder
         //     'user_id' => $user->id,
         //     'category_id' => $category->id
         // ]);
-    }
 
+        // Post::factory(10)->create();
+    }
 }
