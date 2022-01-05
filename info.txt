@@ -35,6 +35,11 @@ https://stackoverflow.com/questions/37182847/how-do-i-disable-git-credential-man
 
 
 ---------------------------links to resources----------------------------------------
+
+awesome laravel help videos by urdu speaker assadullah, 17 videos i think
+https://youtu.be/ZG_s3gHf2dE?list=PL0yiR-15Ytq8_AepuSXIZthj5PX4xJaah
+
+
 react native with yelp API uber project, clever programmer
 https://www.youtube.com/watch?v=jmvbhuJXFow
 
@@ -117,6 +122,19 @@ doom wad files
 https://archive.org/details/2020_03_22_DOOM
 
 there are three ways of calling and creating callback functions
+
+
+===================== POINTS ==========================================
+it is $attributes, not attributes() in blade components
+
+=======================================================================
+
+
+
+
+
+
+
 
 ---------first way----------
 function myfunction($num) {

@@ -11,7 +11,7 @@ Route::get('/', static function () {
         'posts' => Post::latest()->get(),
         'categories' => Category::all()
     ]);
-});
+})->name('home');
 
 Route::get('posts/{post:slug}', static function (Post $post) {
     return view('post', [
@@ -26,7 +26,7 @@ Route::get('categories/{category:slug}', static function (Category $category) {
         'currentCategory' => $category,
         'categories' => Category::all()
     ]);
-});
+})->name('category');
 
 Route::get('authors/{author:username}', static function (User $author) {
     return view('posts', [
@@ -34,4 +34,3 @@ Route::get('authors/{author:username}', static function (User $author) {
         'categories' => Category::all()
     ]);
 });
-
