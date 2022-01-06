@@ -36,6 +36,10 @@ https://stackoverflow.com/questions/37182847/how-do-i-disable-git-credential-man
 
 ---------------------------links to resources----------------------------------------
 
+the php version for both wordpress and laravel projects
+https://xampp.en.uptodown.com/windows/download/4144188
+
+
 awesome laravel help videos by urdu speaker assadullah, 17 videos i think
 https://youtu.be/ZG_s3gHf2dE?list=PL0yiR-15Ytq8_AepuSXIZthj5PX4xJaah
 
@@ -43,6 +47,9 @@ https://youtu.be/ZG_s3gHf2dE?list=PL0yiR-15Ytq8_AepuSXIZthj5PX4xJaah
 react native with yelp API uber project, clever programmer
 https://www.youtube.com/watch?v=jmvbhuJXFow
 
+
+jeffery way repo of the main project
+https://github.com/JeffreyWay/Laravel-From-Scratch-Blog-Project
 
 how laravel idea plugin saves your time and stroke and increase productivity, by pavilas korp, laravel daily
 https://youtu.be/o5WJIS9yWCo
