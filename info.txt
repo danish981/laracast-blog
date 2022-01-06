@@ -2,8 +2,8 @@
 
 
 current video im watching
-integrate the design model
-35 : extract a re-usable drop down menu component
+filtering
+39 : advacned eloquest query constrainsts
 
 
 ------------other videos to follow---------------------------------
@@ -37,7 +37,7 @@ https://stackoverflow.com/questions/37182847/how-do-i-disable-git-credential-man
 
 ---------------------------links to resources----------------------------------------
 
-the php version for both wordpress and laravel projects
+the php version for both wordpress and laravel projects, with php version8.0.13
 https://xampp.en.uptodown.com/windows/download/4144188
 
 

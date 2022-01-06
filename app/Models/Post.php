@@ -13,14 +13,23 @@ class Post extends Model
 
     protected $with = ['category', 'author'];
 
-    public function scopeFilter($query)
+
+
+
+    // we are calling function filter, we pass the second argument in filter() function,
+    // the first argument is passed by laravel automatically, and that is query builder
+    public function scopeFilter($query, array $filters)
     {
-        if (request('search')) {
-            $query
-                ->where('title', 'like', '%' . request('search') . '%')
-                ->orWhere('body', 'like', '%' . request('search') . '%');
-        }
+        // nullsafe operator in php8, by default we are not searching anything
+        // if we have any other filters for the posts, we can add them directly here
+        // when() functions is in query builder, check https://laravel.com/docs/8.x/queries
+        $query->when($filters['search'] ?? false, fn ($query, $search) =>
+        $query
+            ->where('title', 'like', '%' . $search . '%')
+            ->orWhere('body', 'like', '%' . $search . '%'));
     }
+
+
 
     public function category()
     {

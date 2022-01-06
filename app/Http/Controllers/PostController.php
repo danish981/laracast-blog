@@ -9,8 +9,14 @@ class PostController extends Controller
 {
     public function index()
     {
+        // dd(request(['search'])); returns array
+        // dd(request()->only('search'));   returns array
+        // dd(request('search'));   returns string
+
+        // dd(Post::latest()->filter(request(['search']))->get());
+
         return view('posts', [
-            'posts' => $this->getPosts(),
+            'posts' => Post::latest()->filter(request(['search']))->get(),    // filter the posts with query scope made in Post Model
             'categories' => Category::all()
         ]);
     }
@@ -21,10 +27,5 @@ class PostController extends Controller
             'post' => $post,
             'categories' => Category::all()
         ]);
-    }
-
-    protected function getPosts()
-    {
-        return Post::latest()->filter()->get();
     }
 }
