@@ -21,7 +21,8 @@ laravel project settings, how to make phpstorm understand laravel
 https://www.youtube.com/watch?v=HB2T0iWiW50
 =========================================================================
 
-
+kurulus osman series
+https://www.youtube.com/playlist?list=PLdZNFVCDo_1eOmEFqr_xFoWU9oR8PGL5v
 
 
 ----------------------PROBLEMS AND SOLUTIONS----------------------------------------------------
@@ -121,6 +122,7 @@ https://youtu.be/OCqzBgSXnQo
 bootstrap in laravel
 collections in laravel
 caching the data into the models and getting it
+learn about query scopes
 ======================================================================
 
 
