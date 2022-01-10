@@ -35,6 +35,9 @@ https://stackoverflow.com/questions/37182847/how-do-i-disable-git-credential-man
 
 ---------------------------links to resources----------------------------------------
 
+tailwindcss crash course
+https://youtu.be/LyRWNJK8I6U
+
 laravel many to many relationships full explained
 https://appdividend.com/2018/05/17/laravel-many-to-many-relationship-example/
 

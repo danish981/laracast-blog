@@ -13,24 +13,30 @@ class Post extends Model
 
     protected $with = ['category', 'author'];
 
-//    public function scopeFilter($query, array $filters)
-//    {
-//        $query->when($filters['search'] ?? false, fn($query, $search) => $query
-//            ->where('title', 'like', '%' . $search . '%')
-//            ->orWhere('body', 'like', '%' . $search . '%')
-//        );
-//
-//        $query->when($filters['category'] ?? false, fn($query, $category) => $query
-//            ->whereHas('category', fn($query) => $query->where('slug', $category)));
-//
-////        $query->when($filters['category'] ?? false, fn($query, $category) => $query
-////            ->whereExists(fn($query) => $query
-////                ->from('categories')
-////                ->whereColumn('categories.id', 'posts.category_id')
-////                ->where('category.slug', $category)
-////            )
-////        );
-//    }
+    // another approad for queryscope method
+    // public function scopeFilter($query, array $filters)
+    // {
+    //     $query->when(
+    //         $filters['search'] ?? false,
+    //         fn ($query, $search) => $query
+    //             ->where('title', 'like', '%' . $search . '%')
+    //             ->orWhere('body', 'like', '%' . $search . '%')
+    //     );
+
+    //     $query->when($filters['category'] ?? false, fn ($query, $category) => $query
+    //         ->whereHas('category', fn ($query) => $query->where('slug', $category)));
+
+    //     $query->when(
+    //         $filters['category'] ?? false,
+    //         fn ($query, $category) => $query
+    //             ->whereExists(
+    //                 fn ($query) => $query
+    //                     ->from('categories')
+    //                     ->whereColumn('categories.id', 'posts.category_id')
+    //                     ->where('category.slug', $category)
+    //             )
+    //     );
+    // }
 
 
     // function grabbed from stackoverflow, still getting the error, "calling to an undefined function App\Models\Post::all()
@@ -47,6 +53,7 @@ class Post extends Model
             })
             ->when($category, function ($query, $category) {
                 $query
+                    // solved the issue by "category" instead of "categories" index here
                     ->whereHas('category', function ($query) use ($category) {
                         $query->where('slug', $category);
                     });

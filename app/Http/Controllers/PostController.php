@@ -28,5 +28,4 @@ class PostController extends Controller
             'categories' => Category::all()
         ]);
     }
-
 }
