@@ -17,7 +17,8 @@ class PostController extends Controller
         // filter the posts with query scope made in Post Model
         return view('posts', [
             'posts' => Post::latest()->filter(request(['search', 'category']))->get(),
-            'categories' => Category::all()
+            'categories' => Category::all(),
+            'currentCategory' => Category::firstWhere('slug', request('category'))
         ]);
     }
 

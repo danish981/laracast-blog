@@ -39,7 +39,6 @@ class Post extends Model
     // }
 
 
-    // function grabbed from stackoverflow, still getting the error, "calling to an undefined function App\Models\Post::all()
     public function scopeFilter($query, array $filters)
     {
         $search = $filters['search'] ?? false;
@@ -53,7 +52,6 @@ class Post extends Model
             })
             ->when($category, function ($query, $category) {
                 $query
-                    // solved the issue by "category" instead of "categories" index here
                     ->whereHas('category', function ($query) use ($category) {
                         $query->where('slug', $category);
                     });

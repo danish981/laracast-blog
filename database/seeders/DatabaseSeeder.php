@@ -18,19 +18,16 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
 
-        $user = User::factory()->create([
-            'name' => 'Muhammad Sajjad'
-        ]);
+        // $user = User::find(3);
 
+        // $category = Category::find(3);
 
-        $category = Category::factory()->create([
-            'name' => 'Gaming Channals'
-        ]);
+        // Post::factory(10)->create([
+        //     'user_id' => $user->id,
+        //     'category_id' => $category->id
+        // ]);
 
+        // Post::factory(10)->create();
 
-        Post::factory(10)->create([
-            'user_id' => $user->id,
-            'category_id' => $category->id
-        ]);
     }
 }

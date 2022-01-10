@@ -35,6 +35,9 @@ https://stackoverflow.com/questions/37182847/how-do-i-disable-git-credential-man
 
 ---------------------------links to resources----------------------------------------
 
+adding tailwindcss to the laravel project
+https://tailwindcss.com/docs/guides/laravel
+
 tailwindcss crash course
 https://youtu.be/LyRWNJK8I6U
 
@@ -128,12 +131,14 @@ https://youtu.be/OCqzBgSXnQo
 
 
 
-======================================================================
-================important topics from laravel=========================
+==============================================================================================================================================
+================important topics from laravel=================================================================================================
 bootstrap in laravel
 collections in laravel
 caching the data into the models and getting it
 learn about query scopes
+query scopes
+front end dependencies
 ======================================================================
 
 
