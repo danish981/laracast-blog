@@ -33,21 +33,43 @@ which was not supported by windows 10 build 1511 so solution was :
 https://stackoverflow.com/questions/37182847/how-do-i-disable-git-credential-manager-for-windows
 
 
-
-
 ---------------------------links to resources----------------------------------------
+
+laravel many to many relationships full explained
+https://appdividend.com/2018/05/17/laravel-many-to-many-relationship-example/
+
+front end developer long bootcamp video, 12 hours
+https://youtu.be/zRMRS2snuRg
+
+larave idea laravel plugin installation from its docs
+https://laravel-idea.com/docs/install
+
+canva pro joininig link
+https://www.canva.com/signup/?brandAccessToken=KyGj0WO5CVSvjV5Qf_v3Dg&signupRedirect=%2Fbrand%2Fjoin%3Ftoken%3DKyGj0WO5CVSvjV5Qf_v3Dg%26referrer%3Dteam-invite%26fbclid%3DIwAR1qC7jwd0c_WlQP9fHw8EHNboybQk-Icv0H6jVCEcJ-A5k7FXPlm7_wruI&loginRedirect=%2Fbrand%2Fjoin%3Ftoken%3DKyGj0WO5CVSvjV5Qf_v3Dg%26referrer%3Dteam-invite%26fbclid%3DIwAR1qC7jwd0c_WlQP9fHw8EHNboybQk-Icv0H6jVCEcJ-A5k7FXPlm7_wruI
+
+php dev tools to add in browser for php/laravel behind the scene operations
+https://chrome.google.com/webstore/detail/clockwork/dmggabnehkmmfmdffgajcflpdjlnoemp
+
+Build a DropZone (Drag/Drop) Component With Vue 3 (No Library)
+https://www.youtube.com/watch?v=wWKhKPN_Pmw
+
+create a wordpress blog made easy, 20 minutes
+https://youtu.be/d5-V3xrIFX4
+
+Build a Reusable Modal Component Using Vue 3, The Composition API & Slots, 33 minutes
+https://youtu.be/NFdvWBh-D6k
+
+Solidity, Blockchain, and Smart Contract Course – Beginner to Expert Python Tutorial, free codecamp
+https://youtu.be/M576WGiDBdQ
 
 the php version for both wordpress and laravel projects, with php version8.0.13
 https://xampp.en.uptodown.com/windows/download/4144188
 
-
-awesome laravel help videos by urdu speaker assadullah, 17 videos i think
+awesome laravel help videos by urdu speaker assadullah, 17 videos i think, asad
 https://youtu.be/ZG_s3gHf2dE?list=PL0yiR-15Ytq8_AepuSXIZthj5PX4xJaah
-
 
 react native with yelp API uber project, clever programmer
 https://www.youtube.com/watch?v=jmvbhuJXFow
-
 
 jeffery way repo of the main project
 https://github.com/JeffreyWay/Laravel-From-Scratch-Blog-Project
@@ -55,18 +77,14 @@ https://github.com/JeffreyWay/Laravel-From-Scratch-Blog-Project
 how laravel idea plugin saves your time and stroke and increase productivity, by pavilas korp, laravel daily
 https://youtu.be/o5WJIS9yWCo
 
-
 laravel live vire and alpine js and tailwindcss movie website projoejct
 https://youtu.be/tr80D9mhru8
-
 
 the history of muslims in spain, faisal warraich
 https://youtu.be/fbmsosQEl-o
 
-
 wordpress website by darrel mcmannus, astra + elementor
 https://youtu.be/HSIb_VCS1Dc
-
 
 javascript mastery full social media application
 https://youtu.be/1RHDhtbqo94
@@ -74,19 +92,14 @@ https://youtu.be/1RHDhtbqo94
 vueJS 5 project in three hours long video
 https://www.youtube.com/watch?v=DPBXxrhJIv4
 
-
 vue-start from here, build a vue application
 https://youtu.be/bzlFvd0b65c
 
 when dotnet install was not successful, try this
 https://youtu.be/-0eZMOifT2Y
 
-
 tailwindcss is not working in vscode, solution
 https://stackoverflow.com/questions/61343447/my-tailwind-css-intellisense-plugin-just-isnt-working-on-my-vscode
-
-three ways to mitigate the mass assignment vulnerabilities
-link : missing
 
 wordpress vide nice explanation for a business website
 https://youtu.be/20Bp0ucsiGQ
@@ -100,21 +113,16 @@ https://dev.to/ellis22/everything-about-laravel-eloquent-relationships-tutorial-
 vueJS crash course, very nice, vue mastery
 https://youtu.be/bzlFvd0b65c
 
-
 postgresql video by edureka, 2 hours
 https://youtu.be/-VO7YjQeG6Y
-
-
-umar ki halo game
-http://oceanofgames.com/halo-combat-evolved-free-download-ofgv-6023937/
-
-
 
 https://laravel.com/docs/8.x/collections
 https://stackoverflow.com/questions/22279435/what-does-mass-assignment-mean-in-laravel
 
 mass assignment, fillable and other awesome
 https://youtu.be/OCqzBgSXnQo
+
+
 
 
 ======================================================================

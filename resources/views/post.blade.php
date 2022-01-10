@@ -56,5 +56,4 @@
 
     </section>
 
-
 </x-layout>
