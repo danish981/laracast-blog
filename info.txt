@@ -3,7 +3,7 @@
 
 current video im watching
 filtering
-39 : advacned eloquest query constrainsts
+40 : extract a category dropdown blade compoent
 
 
 ------------other videos to follow---------------------------------

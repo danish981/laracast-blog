@@ -15,16 +15,14 @@ class PostController extends Controller
         // ddd(Post::latest()->filter(request(['search']))->get());
 
         // filter the posts with query scope made in Post Model
-        return view('posts', [
-            'posts' => Post::latest()->filter(request(['search', 'category']))->get(),
-            'categories' => Category::all(),
-            'currentCategory' => Category::firstWhere('slug', request('category'))
+        return view('posts.index', [
+            'posts' => Post::latest()->filter(request(['search', 'category']))->get()
         ]);
     }
 
     public function show(Post $post)
     {
-        return view('post', [
+        return view('posts.index', [
             'post' => $post,
             'categories' => Category::all()
         ]);
