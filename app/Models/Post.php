@@ -43,6 +43,7 @@ class Post extends Model
     {
         $search = $filters['search'] ?? false;
         $category = $filters['category'] ?? false;
+        $author = $filters['author'] ?? false;
 
         $query
             ->when($search, function ($query, $search) {
@@ -54,6 +55,12 @@ class Post extends Model
                 $query
                     ->whereHas('category', function ($query) use ($category) {
                         $query->where('slug', $category);
+                    });
+            })
+            ->when($author, function ($query, $author) {
+                $query
+                    ->whereHas('author', function ($query) use ($author) {
+                        $query->where('username', $author);
                     });
             });
     }

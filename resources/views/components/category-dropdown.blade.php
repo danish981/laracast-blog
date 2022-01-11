@@ -13,7 +13,7 @@
         <!-- we can use these :active too in x-dropdown-item, read out them -->
         {{-- :active="isset($currentCategory) && $currentCategory->is($category)" --}}
         {{-- :active='request()->is("/*/{$category->slug}")' --}}
-        <x-dropdown-item href="/?category={{ $category->slug }}"
+        <x-dropdown-item href="?category={{ $category->slug }}"
             :active='request()->is("/categories/{$category->slug}")'>
             {{ ucwords($category->name) }}
         </x-dropdown-item>
