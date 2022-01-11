@@ -3,7 +3,7 @@
 
 current video im watching
 filtering
-42 : merge category and search requests
+43 : fix a tiny eloquent query bug
 
 
 ------------other videos to follow---------------------------------

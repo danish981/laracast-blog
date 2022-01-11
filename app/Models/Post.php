@@ -47,9 +47,10 @@ class Post extends Model
 
         $query
             ->when($search, function ($query, $search) {
-                $query
-                    ->where('title', 'like', '%' . $search . '%')
-                    ->orWhere('body', 'like', '%' . $search . '%');
+                $query->where(fn ($query) =>
+                $query->where('title', 'like', '%' . $search . '%')
+                    ->orWhere('body', 'like', '%' . $search . '%')
+                );
             })
             ->when($category, function ($query, $category) {
                 $query
