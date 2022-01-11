@@ -38,8 +38,6 @@ class Post extends Model
     //     );
     // }
 
-
-
     // this method is filtering all the posts, related to the query string, what we search, what we press the author and what we choose the author
     public function scopeFilter($query, array $filters)
     {

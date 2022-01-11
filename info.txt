@@ -3,7 +3,7 @@
 
 current video im watching
 filtering
-41 : author filtering start
+42 : merge category and search requests
 
 
 ------------other videos to follow---------------------------------
@@ -34,6 +34,9 @@ https://stackoverflow.com/questions/37182847/how-do-i-disable-git-credential-man
 
 
 ---------------------------links to resources----------------------------------------
+
+laravel tips for 2022 for all the php / laravel artisans, enjoy them all
+https://github.com/LaravelDaily/laravel-tips
 
 fix phpstorm autocomplete tailwindcss problem
 https://sjorso.com/posts/tools/how-to-fix-phpstorm-not-autocompleting-tailwind-css-classes

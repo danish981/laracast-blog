@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 /* the old css file which we were using in the beginning */
+/* this css is no longer working */
 body {
     color: #222;
     font-family: sans-serif;
@@ -28,6 +29,6 @@ article + article {
     margin-top: 1rem;
     padding-top: 2rem;
     border-top: 1px solid #c5c5c5;
-    margin-bottom: 2rem;
+    margin-bottom: 2rem
 }
 
