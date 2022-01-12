@@ -14,7 +14,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        if ($this->app->isLocal()) {
+        // if ($this->app->isLocal()) {
+        //     $this->app->register(\Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class);
+        // }
+
+        if(env('APP_ENV' === 'local')) {
             $this->app->register(\Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class);
         }
     }
@@ -26,6 +30,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        
+        // whenever the application boots/runs, which css dependency should start
+        // Paginator::useBootstrap();
+        // Paginator::tailwind();
+        // Paginator::tailwindthree();  // tailwindcss thee
     }
 }
