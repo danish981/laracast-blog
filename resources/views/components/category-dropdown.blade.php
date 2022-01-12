@@ -6,7 +6,7 @@
             <x-icon name="down-arrow" class="absolute pointer-events-none" style="right: 12px;" />
         </button>
     </x-slot>
-    <x-dropdown-item href="/">All</x-dropdown-item>
+    <x-dropdown-item href="/?{{ http_build_query(request()->except('category', 'page')) }}">All</x-dropdown-item>
 
     <!-- drop down items -->
     @foreach ($categories as $category)
@@ -15,7 +15,7 @@
         {{-- :active="isset($currentCategory) && $currentCategory->is($category)" --}}
         {{-- :active='request()->is("/*/{$category->slug}")' --}}
 
-        <x-dropdown-item href="?category={{ $category->slug }}&{{ http_build_query(request()->except('category')) }}"
+        <x-dropdown-item href="?category={{ $category->slug }}&{{ http_build_query(request()->except('category', 'page')) }}"
             :active='request()->is("/categories/{$category->slug}")'>
             {{ ucwords($category->name) }}
         </x-dropdown-item>

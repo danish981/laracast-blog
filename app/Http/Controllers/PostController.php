@@ -15,7 +15,7 @@ class PostController extends Controller
 
         // filter the posts with query scope made in Post Model
         return view('posts.index', [
-            'posts' => Post::latest()->filter(request(['search', 'category', 'author']))->get()
+            'posts' => Post::latest()->filter(request(['search', 'category', 'author']))->paginate(6)
         ]);
     }
 
@@ -25,4 +25,7 @@ class PostController extends Controller
             'post' => $post
         ]);
     }
+
+
+
 }

@@ -13,32 +13,6 @@ class Post extends Model
 
     protected $with = ['category', 'author'];
 
-    // another approad for queryscope method
-    // public function scopeFilter($query, array $filters)
-    // {
-    //     $query->when(
-    //         $filters['search'] ?? false,
-    //         fn ($query, $search) => $query
-    //             ->where('title', 'like', '%' . $search . '%')
-    //             ->orWhere('body', 'like', '%' . $search . '%')
-    //     );
-
-    //     $query->when($filters['category'] ?? false, fn ($query, $category) => $query
-    //         ->whereHas('category', fn ($query) => $query->where('slug', $category)));
-
-    //     $query->when(
-    //         $filters['category'] ?? false,
-    //         fn ($query, $category) => $query
-    //             ->whereExists(
-    //                 fn ($query) => $query
-    //                     ->from('categories')
-    //                     ->whereColumn('categories.id', 'posts.category_id')
-    //                     ->where('category.slug', $category)
-    //             )
-    //     );
-    // }
-
-    // this method is filtering all the posts, related to the query string, what we search, what we press the author and what we choose the author
     public function scopeFilter($query, array $filters)
     {
         $search = $filters['search'] ?? false;
@@ -75,4 +49,5 @@ class Post extends Model
     {
         return $this->belongsTo(User::class, 'user_id');
     }
+
 }

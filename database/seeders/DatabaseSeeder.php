@@ -19,7 +19,6 @@ class DatabaseSeeder extends Seeder
     {
 
         // $user = User::find(3);
-
         // $category = Category::find(3);
 
         // Post::factory(10)->create([

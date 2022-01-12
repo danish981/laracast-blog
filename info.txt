@@ -2,8 +2,8 @@
 
 
 current video im watching
-filtering
-43 : fix a tiny eloquent query bug
+section : pagination
+44 : laughably simple pagination
 
 
 ------------other videos to follow---------------------------------
@@ -27,13 +27,28 @@ https://www.youtube.com/playlist?list=PLdZNFVCDo_1eOmEFqr_xFoWU9oR8PGL5v
 
 ----------------------PROBLEMS AND SOLUTIONS----------------------------------------------------
 
+
 git credentials manager was not working properly and was asking me to install dot net 4.7.2,
 which was not supported by windows 10 build 1511 so solution was :
 
 https://stackoverflow.com/questions/37182847/how-do-i-disable-git-credential-manager-for-windows
 
 
----------------------------links to resources----------------------------------------
+
+
+
+__________________________________________________________________________________________________
+########################   LINKS TO RESOURCES AND IMPORTANT VIDEOS ###############################
+--------------------------------------------------------------------------------------------------
+
+css from zero to hero, free code codecamp
+https://www.youtube.com/watch?v=1Rs2ND1ryYc
+
+fix wordpress issue while updating php verion to php 8.1
+https://youtu.be/h-P6Flm54Ok
+
+how can we setup multiple php versions
+https://www.youtube.com/watch?v=o-NeHuaaELI
 
 laravel tips for 2022 for all the php / laravel artisans, enjoy them all
 https://github.com/LaravelDaily/laravel-tips
@@ -135,6 +150,11 @@ mass assignment, fillable and other awesome
 https://youtu.be/OCqzBgSXnQo
 
 
+################################################################################################################################
+
+
+
+
 
 
 ==============================================================================================================================================
@@ -145,7 +165,7 @@ caching the data into the models and getting it
 learn about query scopes
 query scopes
 front end dependencies
-======================================================================
+===============================================================================================================================================
 
 
 
