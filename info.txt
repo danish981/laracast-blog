@@ -3,7 +3,7 @@
 
 current video im watching
 section : pagination
-44 : laughably simple pagination
+45 : automatic password hashing with mutators
 
 
 ------------other videos to follow---------------------------------

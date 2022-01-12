@@ -25,6 +25,13 @@ class User extends Authenticatable
         'remember_token',
     ];
 
+    // https://laravel.com/docs/8.x/eloquent-mutators
+    public function setPasswordAttribute($password)
+    {
+        $this->attributes['password'] = bcrypt($password);
+    }
+
+
     /**
      * The attributes that should be cast.
      *
@@ -38,5 +45,4 @@ class User extends Authenticatable
     {
         return $this->hasMany(Post::class);
     }
-
 }
