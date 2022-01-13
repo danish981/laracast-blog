@@ -2,8 +2,8 @@
 
 
 current video im watching
-section : pagination
-45 : automatic password hashing with mutators
+section : forms and validation
+46 : failed validation errors and old input
 
 
 ------------other videos to follow---------------------------------
