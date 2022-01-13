@@ -4,10 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\Post;
 
-class PostController extends Controller
-{
-    public function index()
-    {
+class PostController extends Controller {
+
+    public function index() {
         // dd(request(['search'])); returns array
         // dd(request()->only('search'));   returns array
         // dd(request('search'));   returns string
@@ -21,8 +20,7 @@ class PostController extends Controller
         ]);
     }
 
-    public function show(Post $post)
-    {
+    public function show(Post $post) {
         return view('posts.show', [
             'post' => $post
         ]);

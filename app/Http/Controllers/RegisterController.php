@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rule;
 
 class RegisterController extends Controller {
+
     public function create() {
         return view('register.create');
     }
@@ -21,11 +22,12 @@ class RegisterController extends Controller {
             'password' => ['required', 'min:7']
         ]);
 
+        $user = User::create($attributes);
+        auth()->login($user);
+
         // $attributes['password'] = bcrypt($attributes['password']);
         // Hash::check('password', $attributes['password']);    // to check if the password matches the hashed password
         // session()->flash('success', 'Your account has been created');
-
-        User::create($attributes);
 
         return redirect('/')->with('success', 'Your account has been created');  // the same as session flash, click the with() method
     }

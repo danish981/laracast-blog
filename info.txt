@@ -3,7 +3,7 @@
 
 current video im watching
 section : forms and validation
-47 : show a success flash message
+48 : login and logout
 
 
 ------------other videos to follow---------------------------------
