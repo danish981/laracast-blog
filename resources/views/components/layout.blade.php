@@ -59,5 +59,6 @@
 
 </section>
 
+<x-flash />
 
 </body>

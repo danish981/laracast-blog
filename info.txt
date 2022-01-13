@@ -3,7 +3,7 @@
 
 current video im watching
 section : forms and validation
-46 : failed validation errors and old input
+47 : show a success flash message
 
 
 ------------other videos to follow---------------------------------
