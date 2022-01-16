@@ -3,7 +3,7 @@
 
 current video im watching
 section : forms and validation
-48 : login and logout
+50 : building the login page
 
 
 ------------other videos to follow---------------------------------
@@ -27,6 +27,8 @@ https://www.youtube.com/playlist?list=PLdZNFVCDo_1eOmEFqr_xFoWU9oR8PGL5v
 
 ----------------------PROBLEMS AND SOLUTIONS----------------------------------------------------
 
+database migration problem, while migrating there comes error, views already exists bla bla
+https://stackoverflow.com/questions/35694448/delete-all-the-tables-in-database-in-one-shot
 
 git credentials manager was not working properly and was asking me to install dot net 4.7.2,
 which was not supported by windows 10 build 1511 so solution was :
@@ -37,9 +39,25 @@ https://stackoverflow.com/questions/37182847/how-do-i-disable-git-credential-man
 
 
 
+
+
+
+
 __________________________________________________________________________________________________
 ########################   LINKS TO RESOURCES AND IMPORTANT VIDEOS ###############################
---------------------------------------------------------------------------------------------------
+__________________________________________________________________________________________________
+
+voting system application with laracat
+https://laracasts.com/series/build-a-voting-app/episodes/2
+
+learn javascript by building 15 projects, freecodecamp, by coding addict
+https://youtu.be/3PHXvlpOkf4
+
+5 apps created and and deployed, javascript mastery
+https://www.youtube.com/watch?v=GDa8kZLNhJ4
+
+eloquent relationships
+https://youtu.be/m0IsbkfONL4?list=PL1TrjkMQ8UbVyIT0cDX-54gN5tunWZvaI
 
 css from zero to hero, free code codecamp
 https://www.youtube.com/watch?v=1Rs2ND1ryYc

@@ -8,15 +8,16 @@ use App\Models\Post;
 
 use Illuminate\Database\Seeder;
 
-class DatabaseSeeder extends Seeder
-{
+class DatabaseSeeder extends Seeder {
+
+
+
     /**
      * Seed the application's database.
      *
      * @return void
      */
-    public function run()
-    {
+    public function run() {
 
         // $user = User::find(3);
         // $category = Category::find(3);
@@ -26,7 +27,7 @@ class DatabaseSeeder extends Seeder
         //     'category_id' => $category->id
         // ]);
 
-        // Post::factory(10)->create();
+        Post::factory(10)->create();
 
     }
 }
